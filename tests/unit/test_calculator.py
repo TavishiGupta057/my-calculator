@@ -48,3 +48,11 @@ class TestMultiplyDivide:
 
     def test_divide_positive_numbers(self):
         assert divide(10, 2) == 5
+class TestAdvancedOperations:
+    def test_power(self):
+        assert power(2, 3) == 8
+        assert power(5, 0) == 1
+
+    def test_square_root(self):
+        assert square_root(4) == 2
+        assert square_root(9) == 3
