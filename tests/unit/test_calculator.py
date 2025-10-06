@@ -42,3 +42,9 @@ def test_add_negative_numbers():
 def test_subtract_negative_numbers():
     assert subtract(-1, -1) == 0
     assert subtract(-5, -3) == -2
+class TestMultiplyDivide:
+    def test_multiply_positive_numbers(self):
+        assert multiply(3, 4) == 12
+
+    def test_divide_positive_numbers(self):
+        assert divide(10, 2) == 5
